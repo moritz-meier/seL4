@@ -49,6 +49,7 @@ qcom-apq8064-ifc6410=apq8064
 sun7i-a20-cubietruck=allwinnera20
 tegra124-jetson-tk1=tk1
 zynq-zc706=zynq7000
+stm32mp157f-dk2=stm32mp1
 "
 
 ARM64_DTBS="
