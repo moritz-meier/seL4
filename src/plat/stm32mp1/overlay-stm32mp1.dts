@@ -1,0 +1,7 @@
+/ {
+	chosen {
+		seL4,kernel-devices =
+		    &{/interrupt-controller@a0021000},
+		    &{/timer};
+	};
+};

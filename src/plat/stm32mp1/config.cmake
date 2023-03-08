@@ -9,7 +9,7 @@ if(KernelPlatformSTM32MP1)
     config_set(KernelARMPlatform ARM_PLAT stm32mp1)
     config_set(KernelArmMach MACH "stm32mp1")
     list(APPEND KernelDTSList "tools/dts/stm32mp1.dts")
-    #list(APPEND KernelDTSList "src/plat/stm32mp1/overlay-stm32mp1.dts")
+    list(APPEND KernelDTSList "src/plat/stm32mp1/overlay-stm32mp1.dts")
 	declare_default_headers(
         TIMER_FREQUENCY 8000000
         MAX_IRQ 159
