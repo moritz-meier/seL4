@@ -193,6 +193,7 @@ devices:
       - ti,omap3-uart
       - xlnx,xuartps
       - ns16550a
+      - st,stm32h7-uart
     regions:
       - index: 0
         kernel: UART_PPTR
