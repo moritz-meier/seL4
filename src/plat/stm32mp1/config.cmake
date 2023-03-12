@@ -11,7 +11,7 @@ if(KernelPlatformSTM32MP1)
     list(APPEND KernelDTSList "tools/dts/stm32mp1.dts")
     list(APPEND KernelDTSList "src/plat/stm32mp1/overlay-stm32mp1.dts")
 	declare_default_headers(
-        TIMER_FREQUENCY 8000000
+        TIMER_FREQUENCY 24000000
         MAX_IRQ 159
         NUM_PPI 32
         TIMER drivers/timer/arm_generic.h
